@@ -1,7 +1,7 @@
 # .gitignore not working when files are already committed
 
-1. Commit everything (also `.gitignore` file) so you have nothing to commit
-2. Remove everything from your repo by: 
+1. Commit everything (also `.gitignore` file) so nothing is left to commit
+2. Remove everything from the remote repo by: 
 ```
 git rm -r --cached .
 ```
